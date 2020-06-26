@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+<style>
+    .color1 {
+        background-color: skyblue;
+    }
+    .tab-color {
+        background-color: rgba(3, 70, 25, 0.884);
+        height:auto;
+    }
+
+    li {
+        display: inline;
+        font-size: 20pt;
+        margin-right: 10px;
+        padding: 10px;
+    }
+    div#col-all {     
+            
+    }
+    #column1 {
+        background-color: gray;
+    }
+    #column2 {
+        background-color: rgb(184, 184, 184);
+    }
+    #column3 {
+        background-color: rgb(202, 191, 191);
+    }
+    #column1,#column2,#column3 {
+        height: 200px;
+     
+    }
+
+    @media screen and (max-width:600px) {
+        li {
+            font-size: 10pt;
+        }
+    }
+    
+</style>
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row  color1">
+            <h1 class="mx-auto white-text">Header</h1>
+        </div>
+        <div class="row tab-color " >
+            <ul class="p-3">
+                <li class=" border-right white-text "> Menu 1 </li>
+                <li class=" border-right white-text"> Menu 2 </li>
+                <li class=" border-right white-text"> Menu 3 </li>
+            </ul>
+        </div>
+        <div class="row ">
+        
+            <div id="column1" class="col-6 col-sm-4"> Column 1</div>
+            <div id="column2" class="col-6 col-sm-4">Column 2</div>
+            <div id="column3" class="col-12 col-sm-4">Column 3</div>
+            </div>
+            <div class="row" >
+                <div class="col" style="background-color:  rgba(3, 70, 25, 0.884)">
+                <h1 class="text-center white-text">footer</h1></div>
+            </div> 
+        </div>
+
+        
+    </di>
+</body>
+</html>
