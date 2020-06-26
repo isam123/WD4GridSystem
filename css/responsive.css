@@ -8,7 +8,7 @@ html{
 }
 body{
    
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: monospace;
 }
 
 .container {
@@ -124,10 +124,15 @@ padding: 15px;
 
     }
 
+    #second {
+        grid-column: 1/ span 2;
+        grid-row: 2;
+        order:3;
+    }
+
     
     #third {
-        grid-column: 1/ span 3;
-        grid-row: 2;
+        grid-row: 1;
     }
 
 }
